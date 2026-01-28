@@ -1,13 +1,9 @@
-import { MenuBar } from "@/components/menu-bar"
-import { ThemeToggle } from "@/components/theme-toggle"
+import ElectricBorderCard from "@/components/electric-border-card"
 
-export default function Page() {
+export default function Home() {
   return (
-    <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4">
-      <div className="mb-[120px]">
-        <ThemeToggle />
-      </div>
-      <MenuBar />
-    </div>
+    <main className="main-container">
+      <ElectricBorderCard />
+    </main>
   )
 }
